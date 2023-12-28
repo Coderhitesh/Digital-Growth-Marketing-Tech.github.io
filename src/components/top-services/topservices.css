@@ -1,0 +1,103 @@
+.topservices-section {
+    width: 100%;
+    position: relative;
+}
+
+.topservices-section::after {
+    content: "";
+    width: 100%;
+    height: 50%;
+    background-color: #C9EDFF;
+    background-image: url('../../New\ folder/top-services-background.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.topservices-section .container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 6rem 5rem;
+}
+
+.topservices-section .container .heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    z-index: 9;
+}
+
+.topservices-section .container .heading span {
+    font-size: 1.9rem;
+    color: rgb(241, 33, 33);
+}
+
+.topservices-section .container .heading h2 {
+    font-size: 4.1rem;
+}
+
+.topservices-section .container .services-content-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 9;
+}
+
+.topservices-section .container .services-content-row .same-col {
+    width: 23%;
+    border: 1px solid #C9EDFF;
+    /* background-color: white; */
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-top: 70px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.topservices-section .container .services-content-row .col-1 {}
+
+.topservices-section .container .services-content-row .col-2 {}
+
+.topservices-section .container .services-content-row .col-3 {}
+
+.topservices-section .container .services-content-row .col-4 {}
+
+.topservices-section .container .services-content-row .same-col .img {
+    width: 60px;
+}
+
+.topservices-section .container .services-content-row .same-col .img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.topservices-section .container .services-content-row .same-col h2 {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.topservices-section .container .services-content-row .same-col p {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #7B7B9A;
+}
+
+.topservices-section .container .services-content-row .same-col a {
+    font-size: 1.5rem;
+}

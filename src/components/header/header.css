@@ -1,0 +1,228 @@
+
+
+header{
+    width: 100%;
+    background-color: #C9EDFF;
+    box-shadow: 0px 0px 28px -11px black;
+}
+
+header .dgmt-container{
+    height: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hidden{
+    display: none!important;
+}
+.visible{
+    display: flex!important;
+}
+
+header .dgmt-container .dgmt-logo{
+    height: 100%;
+}
+
+header .dgmt-container .dgmt-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    height: 100%;
+}
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 5px;
+}
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul .dgmt-inventure-drop-down{
+    position: relative;
+}
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul .dgmt-inventure-drop-down .dgmt-drop-down{
+    width: 240px;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    z-index: 999;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    height: 270px;
+    font-size: 1.7rem;
+}
+
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul .dgmt-inventure-drop-down .dgmt-drop-down li{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul .dgmt-inventure-drop-down .dgmt-drop-down li a{
+    color: var(--text-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 16px;
+}
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul .dgmt-inventure-drop-down .dgmt-drop-down li a:hover{
+    background-color: #C9EDFF;
+}
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul .dgmt-services-drop-down{
+    position: relative;
+}
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul .dgmt-services-drop-down .dgmt-drop-down{
+    width: 300px;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    z-index: 999;
+    background-color: whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+    display: none;
+    flex-direction: column;
+    height: 450px;
+    font-size: 1.7rem;
+}
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul .dgmt-services-drop-down .dgmt-drop-down li{
+    height: 12.5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.dgmt-drop-down li a{
+    color: var(--text-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 16px;
+}
+
+.dgmt-drop-down li a:hover{
+    background-color: #C9EDFF;
+}
+
+.dropdown-hover:hover > .firstdrop {
+    display:flex!important;
+}
+
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul li .hover{
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 2.6rem 1.3rem;
+    color: #050748;
+    position: relative;
+    
+}
+
+.dropdown-hover:hover + .dgmt-drop-down{
+    display: flex;
+}
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul li .hover::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: rgb(27, 27, 150);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease-in;
+}
+
+header .dgmt-container .dgmt-right .dgmt-navigation ul li a:hover::after{
+    width: 100%;
+}
+
+header .dgmt-container .dgmt-right .dgmt-btns{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header .dgmt-container .dgmt-right .dgmt-btns .dgmt-call-btn{
+    padding: 12px 15px;
+    border-radius: 50%;
+    border: none;
+    background-image: linear-gradient(to right, rgb(207, 43, 185) , rgb(189, 137, 245));
+}
+
+header .dgmt-container .dgmt-right .dgmt-btns .dgmt-call-btn i{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+header .dgmt-container .dgmt-right .dgmt-btns .dgmt-quote-btn{
+    font-size: 1.8rem;
+    color: white;
+    border: none;
+    padding: 12px 14px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, rgb(61, 103, 240) , rgb(128, 174, 243));
+}
+
+.toggle {
+    background-color: rgb(59, 112, 217);
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 50px 20px rgba(0, 0, 0, .1);
+    line-height: 1;
+  }
+  
+  .input {
+    display: none;
+  }
+  
+  .icon {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    transition: transform 500ms;
+  }
+  
+  .icon--moon {
+    transition-delay: 200ms;
+  }
+  
+  .icon--sun {
+    transform: scale(0);
+  }
+  
+  #switch:checked + .icon--moon {
+    transform: rotate(360deg) scale(0);
+  }
+  
+  #switch:checked ~ .icon--sun {
+    transition-delay: 200ms;
+    transform: scale(1) rotate(360deg);
+  }
