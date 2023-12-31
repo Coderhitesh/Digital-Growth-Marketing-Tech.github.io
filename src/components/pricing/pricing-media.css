@@ -1,0 +1,32 @@
+@media (max-width:1200px) {
+    .pricing-section .container .prices-container {
+       
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .pricing-section .container .prices-container .col-same {
+        width: 47%;
+    }    
+}
+
+@media (max-width:900px) {
+    .pricing-section .container .heading span {
+        color: #E6009F;
+        font-size: 1.4rem;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    
+    .pricing-section .container .heading h2 {
+        font-size: 4rem;
+        width: 100%;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width:610px){
+    .pricing-section .container .prices-container .col-same {
+        width: 100%;
+    }    
+}

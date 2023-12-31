@@ -1,0 +1,262 @@
+.pricing-section {
+    width: 100%;
+}
+
+.pricing-section .container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 60px 50px;
+}
+
+.pricing-section .container .heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-section .container .heading span {
+    color: #E6009F;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.pricing-section .container .heading h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.pricing-section .container .prices-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.pricing-section .container .prices-container .col-same {
+    width: 23%;
+    box-shadow: 0 10px 15px 0px rgb(0 23 46 / 7%) !important;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-section .container .prices-container .col-same .package-name {
+    padding: 30px 0 24px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pricing-section .container .prices-container .col-1 .package-name {
+    background-color: #F8F8FF;
+}
+
+.pricing-section .container .prices-container .col-2 .package-name {
+    background-color: #E9E9FF;
+}
+
+.pricing-section .container .prices-container .col-3 .package-name {
+    background-color: #F8F8FF;
+}
+
+.pricing-section .container .prices-container .col-4 .package-name {
+    background-color: #E9E9FF;
+}
+
+
+.pricing-section .container .prices-container .col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.pricing-section .container .prices-container .col-same .package-name h3 {
+    font-size: 2.1rem;
+}
+
+.pricing-section .container .prices-container .col-same .package-name span {
+    font-size: 1.5rem;
+}
+
+.pricing-section .container .prices-container .col-same .package-price {
+    padding: 30px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.pricing-section .container .prices-container .col-same .package-price h2 {
+    font-size: 3rem;
+    display: flex;
+    gap: 5px;
+}
+
+.pricing-section .container .prices-container .col-same .package-price span {
+    font-size: 1.5rem;
+    color: var(--para-color);
+}
+
+.pricing-section .container .prices-container .col-same .package-services {
+    overflow-y: scroll;
+    max-height: 310px;
+    height: 310px;
+    padding: 20px;
+    background-color: #f8f8ff;
+    margin: 30px 20px;
+    border: 1px solid #e8e8e8;
+    border-radius: 14px 0px 0px 14px;
+    height: 200px;
+}
+
+.pricing-section .container .prices-container .col-same .package-services ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.pricing-section .container .prices-container .col-same .package-services ul li {
+    font-size: 1.4rem;
+    color: var(--para-color);
+    position: relative;
+}
+
+.pricing-section .container .prices-container .col-same .package-order {
+    padding: 0 20px;
+}
+
+.pricing-section .container .prices-container .col-same .package-order a {
+    font-size: 1.4rem;
+
+}
+
+         
+         
+.btn-grad-1 {
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad-1:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+
+         
+.btn-grad-2 {
+    background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad-2:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
+.btn-grad-4 {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad-4:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+         
+.btn-grad-3 {
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad-3:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
+.pricing-section .container .prices-container .col-same .contact-for-package {
+    margin-top: 30px;
+    background: #f8f8ff;
+    padding: 10px 20px;
+}
+
+.pricing-section .container .prices-container .col-same .contact-for-package a {
+    font-size: 1.3rem;
+    color: var(--para-color);
+
+}
+
+
+
+
+
+
+
+/* \f00c */
+
+
+
+
+/* border-top: 1px solid #e5e5e5; */

@@ -1,0 +1,99 @@
+.small-animation-section{
+    width: 100%;
+    background-color: white;
+}
+
+.small-animation-section .container{
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+}
+
+.small-animation-section .container .animation-1{
+    width: 100%;    
+
+    position: absolute;
+    left: 0%;
+    top:34%;
+    animation: anime-1 20s infinite linear;
+    opacity: 1;
+    z-index: 9;
+}
+
+@keyframes anime-1 {
+    0%{
+		left: 0%;
+		opacity: 1;
+	}
+	49.009%{
+		left: -100%;
+		opacity: 1;
+	}
+	50%{
+		left: -100%;
+		opacity: 0;
+	}
+	50.001%{
+		left: 100%;
+		opacity: 0;
+	}
+	50.002%{
+		left: 100%;
+		opacity: 1;
+	}
+	100%{
+		left: 0%;
+		opacity: 1;
+	}
+}
+
+.small-animation-section .container .animation-1 .content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.small-animation-section .container .animation-1 h2{
+    background-color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.small-animation-section .container .animation-2{
+    width: 100%;    
+
+    position: absolute;
+    left: 100%;
+    top: 34%;
+    animation: anime-2 20s infinite linear;
+    z-index: 9;
+}
+
+@keyframes anime-2 {
+    0%{
+		left: 100%;
+		opacity: 1;
+	}
+	
+	100%{
+		left: -100%;
+		opacity: 1;
+	}
+}
+
+.small-animation-section .container .animation-2 .content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.small-animation-section .container .animation-2 h2{
+    background-color: whitesmoke;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+

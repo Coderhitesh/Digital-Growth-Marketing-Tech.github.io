@@ -1,0 +1,95 @@
+
+.big-animation-section{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.big-animation-section .container{
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    height: 170px;
+    overflow: hidden;
+}
+
+.big-animation-section .container .animation-1{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 1;
+    animation: anime-3 30s infinite linear;
+}
+
+@keyframes anime-3 {
+    0%{
+		left: 0%;
+		opacity: 1;
+	}
+	49.009%{
+		left: -223%;
+		opacity: 1;
+	}
+	50%{
+		left: -223%;
+		opacity: 0;
+	}
+	50.001%{
+		left: 223%;
+		opacity: 0;
+	}
+	50.002%{
+		left: 223%;
+		opacity: 1;
+	}
+	100%{
+		left: 0%;
+		opacity: 1;
+	}
+}
+
+.big-animation-section .container .animation-1 .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.big-animation-section .container .animation-1 .content h2{
+    font-size: 10rem;
+    white-space: nowrap;
+}
+
+.big-animation-section .container .animation-2{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 223%;
+    animation: anime-4 30s infinite linear;
+}
+
+@keyframes anime-4 {
+    0%{
+		left: 223%;
+		opacity: 1;
+	}
+	
+	100%{
+		left: -223%;
+		opacity: 1;
+	}
+}
+
+.big-animation-section .container .animation-2 .content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.big-animation-section .container .animation-2 .content h2{
+    font-size: 10rem;
+    white-space: nowrap;
+}

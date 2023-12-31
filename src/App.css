@@ -8,8 +8,10 @@
 }
 
 :root{
-  --background-color: #C9EDFF;
+  --drop-down-bg-color: whitesmoke;
+  --main-bg-color: #C9EDFF;
   --text-color: #050748;
+  --para-color: #8585A1;
 }
 
 ul {
@@ -23,6 +25,7 @@ a {
 html {
     font-size: 62.5%;
     font-family: "Work Sans", sans-serif;
+    overflow-x: hidden;
 }
 
 .button {
@@ -49,3 +52,31 @@ html {
     transform: translate(0);
     box-shadow: none;
   }
+
+  
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #7bc8ea;
+    /* border-radius: 10px; */
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #183072;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0e162c;
+} 
+
+ :root {
+    --bg-color: #16213E;
+    --element-color: #0F3460;
+}
+

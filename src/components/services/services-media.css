@@ -1,0 +1,65 @@
+@media (max-width:960px) {
+    #services .container .services-box .services-content-box-1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    
+    #services .container .services-box .services-content-box-1 .same-col {
+        width: 48%;
+    }
+}
+
+@media (max-width:850px) {
+    #services .container .services-box .services-content-box-2 {
+        width: 100%;
+        /* display: flex; */
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    #services .container .services-box .services-content-box-2 .same-col {
+        width: 100%;
+        background-color: var(--element-color);
+        padding: 55px 40px;
+        color: whitesmoke;
+    
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width:740px) {
+    #services .container .services-box .services-content-box-1 .same-col {
+        width: 100%;
+    }
+}
+
+@media (max-width:550px) {
+    #services .container .heading {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    #services .container .heading span {
+        font-size: 4.2rem;
+    }
+    
+    #services .container .heading .button-box .left-btn i {
+        font-size: 27px;
+    }
+    
+    #services .container .heading .button-box .right-btn i {
+        font-size: 27px;
+    }
+}
+

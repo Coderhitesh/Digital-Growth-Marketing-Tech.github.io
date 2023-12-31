@@ -1,0 +1,16 @@
+@media (max-width:900px){
+    footer .container .row{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    footer .container .row .col-same{
+        width: 47%;
+    }
+}
+
+@media (max-width:650px) {
+    footer .container .row .col-same{
+        width: 100%;
+    }
+}

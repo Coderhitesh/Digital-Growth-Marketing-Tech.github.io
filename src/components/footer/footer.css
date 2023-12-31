@@ -1,0 +1,132 @@
+footer{
+    width: 100%;
+    /* background-color: beige; */
+    /* background: url(../../New\ folder/footer-background.png); */
+    background: linear-gradient(to right , #2193b0,#6dd5ed);
+}
+
+footer .container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 6rem 5rem;
+}
+
+footer .container .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .row .col-same{
+    width: 23%;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .container .row .col-1 h2{
+    font-size: 2.5rem;
+    color: white;
+}
+
+footer .container .row .col-1 p{
+    font-size: 1.7rem;
+    color: white;
+}
+
+footer .container .row .col-2 h3{
+    font-size: 2.7rem;
+    color: white;
+}
+
+footer .container .row .col-2 nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+footer .container .row .col-2 nav ul li a{
+    font-size: 1.7rem;
+    /* color: var(--text-color); */
+    color: white;
+}
+
+footer .container .row .col-3 h3{
+    font-size: 2.7rem;
+    color: white;
+}
+
+footer .container .row .col-3 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+footer .container .row .col-3 ul li a{
+    font-size: 1.7rem;
+    /* color: var(--text-color); */
+    color: white;
+}
+
+footer .container .row .col-4 h3{
+    font-size: 2.7rem;
+    color: white;
+}
+
+footer .container .row .col-4 .same{
+    display: flex;
+    gap: 7px;
+}
+
+footer .container .row .col-4 .same i{
+    font-size: 2rem;
+    color: white;
+}
+
+footer .container .row .col-4 .same .detail-same{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer .container .row .col-4 .same .detail-same p{
+    font-size: 1.6rem;
+    color: white;
+}
+
+footer .container .row .col-4 .same .detail-same a{
+    font-size: 1.6rem;
+    /* color: var(--text-color); */
+    color: white;
+}
+
+footer .container .row .col-4 .address{
+    display: flex;
+    gap: 7px;
+}
+
+footer .container .row .col-4 .address i{
+    font-size: 2rem;
+    color: white;
+}
+
+footer .container .row .col-4 .address .address-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+footer .container .row .col-4 .address .address-detail h4{
+    font-size: 1.6rem;
+    color: white;
+}
+
+footer .container .row .col-4 .address .address-detail a{
+    font-size: 1.6rem;
+    /* color: var(--text-color); */
+    color: white;
+}
+

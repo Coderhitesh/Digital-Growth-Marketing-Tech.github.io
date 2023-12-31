@@ -1,0 +1,17 @@
+@media (max-width:1200px) {
+    
+
+.circle-animation .container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 6rem 5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle-animation .container .left {
+    width: 49%;
+    height: 400px;
+}
+}

@@ -9,14 +9,12 @@ const Header = () => {
     const [isMenuVisibles, setMenuVisibilitys] = useState(false);
 
     const handleMouseEnter = () => {
-        console.log('hello')
         setMenuVisibility(true);
         setMenuVisibilitys(false)
 
     };
 
     const handleMouseEnters = () => {
-        console.log('hello')
         setMenuVisibility(false);
         setMenuVisibilitys(true)
     };
@@ -38,8 +36,8 @@ const Header = () => {
                     <div className='dgmt-right'>
                         <nav className='dgmt-navigation'>
                             <ul>
-                                <li><Link className='hover' to='' >Home</Link></li>
-                                <li><Link className='hover' to='' >About Us</Link></li>
+                                <li><Link className='hover' to='/' >Home</Link></li>
+                                <li><Link className='hover' to='/about-us' >About Us</Link></li>
                                 <li className='dgmt-inventure-drop-down'>
                                     <Link className='hover dropdown-hover' to='' onMouseEnter={handleMouseEnter} onClick={handleMouseLeave}>
                                         Our Inventures
@@ -47,7 +45,6 @@ const Header = () => {
                                     <ul className={`dgmt-drop-down firstdrop ${isMenuVisible ? 'visible' : 'hidden'}`}>
                                         <li><Link to='/'>Confirm Buyers</Link></li>
                                         <li><Link to='/'>Quick Solutions</Link></li>
-                                        <li><Link to='/'>Matrimonial Indian</Link></li>
                                         <li><Link to='/'>B2B</Link></li>
                                         <li><Link to='/'>B2C</Link></li>
                                     </ul>
@@ -60,16 +57,14 @@ const Header = () => {
                                         <li><Link to='/'>Websites Designing</Link></li>
                                         <li><Link to='/'>Website Development</Link></li>
                                         <li><Link to='/'>App Development</Link></li>
-                                        <li><Link to='/'>Web-App Development</Link></li>
+                                        <li><Link to='/'>Social Media Marketing</Link></li>
                                         <li><Link to='/'>Digital Marketing</Link></li>
                                         <li><Link to='/'>Search Engine Optimization</Link></li>
-                                        {/* <li><Link to='/'>Social Media Marketing</Link></li>
-                                        <li><Link to='/'>Content Marketing</Link></li> */}
                                        
                                     </ul>
                                 </li>
                                 <li><Link to='' className='hover' >Certificates</Link></li>
-                                <li><Link to='' className='hover' >Contact Us</Link></li>
+                                <li><Link to='/contact' className='hover' >Contact Us</Link></li>
                             </ul>
                         </nav>
                         <div className='dgmt-btns'>

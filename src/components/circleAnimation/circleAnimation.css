@@ -1,0 +1,192 @@
+.circle-animation {
+    width: 100%;
+    height: auto;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 10px;
+}
+
+.circle-animation .container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 6rem 5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle-animation .container .left {
+    width: 49%;
+    height: 400px;
+}
+
+.circle-animation .container .left h2 {
+    font-size: 5rem;
+}
+
+.circle-animation .container .left .left-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.circle-animation .container .left .left-content p {
+    font-size: 1.8rem;
+}
+
+.circle-animation .container .right {
+    width: 49%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-animation .container .right .circle-1 {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    border: 1px solid rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    animation: circle-1-anime 20s infinite linear;
+}
+
+@keyframes circle-1-anime {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle-animation .container .right .circle-1 img {
+    width: 35px;
+    position: absolute;
+    z-index: 9;
+    object-fit: contain;
+    animation: image-1-anime 29s infinite linear;
+}
+
+@keyframes image-1-anime {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.circle-animation .container .right .circle-1 .img-1 {
+    top: 19%;
+    left: 2%;
+}
+
+.circle-animation .container .right .circle-1 .img-2 {
+    top: -5%;
+    left: 44%;
+}
+
+.circle-animation .container .right .circle-1 .img-3 {
+    top: 19%;
+    right: 2%;
+}
+
+.circle-animation .container .right .circle-1 .img-4 {
+    bottom: 19%;
+    left: 2%;
+}
+
+.circle-animation .container .right .circle-1 .img-5 {
+    bottom: -5%;
+    left: 44%;
+}
+
+.circle-animation .container .right .circle-1 .img-6 {
+    bottom: 19%;
+    right: 2%;
+    width: 40px;
+}
+
+.circle-animation .container .right .circle-2 {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 1px solid rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    position: absolute;
+}
+
+.circle-animation .container .right .circle-3 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: white;
+    position: absolute;
+
+    animation: circle-2-anime 20s infinite linear;
+}
+
+@keyframes circle-2-anime {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.circle-animation .container .right .circle-3 img {
+    width: 35px;
+    position: absolute;
+    z-index: 9;
+    animation: image-2-anime 29s infinite linear;
+}
+
+@keyframes image-2-anime {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circle-animation .container .right .circle-3 .img-7 {
+    top: 9%;
+    left: 3%;
+}
+
+.circle-animation .container .right .circle-3 .img-8 {
+    top: 10%;
+    right: 2%;
+}
+
+.circle-animation .container .right .circle-3 .img-9 {
+    bottom: 9%;
+    left: 3%;
+}
+
+.circle-animation .container .right .circle-3 .img-10 {
+    bottom: 10%;
+    right: 2%;
+}

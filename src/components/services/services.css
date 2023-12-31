@@ -1,0 +1,279 @@
+
+#services {
+    width: 100%;
+    /* background-color: var(--main-bg-color); */
+    position: relative;
+}
+
+#services::after{
+    content: '';
+    width: 100%;
+    height: 50%;
+    background-image: url(../../New\ folder/top-services-background.png);
+    background-color: var(--main-bg-color);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#services .container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    position: relative;
+    z-index: 9;
+}
+
+#services .container .heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#services .container .heading .button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#services .container .heading .button-box .left-btn {
+    border: 2px solid var(--text-color);
+    padding: 1px 3px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#services .container .heading .button-box .left-btn i {
+    color: var(--text-color);
+    font-size: 35px;
+    transition: all 0.5s;
+}
+
+#services .container .heading .button-box .left-btn:hover {
+    color: var(--element-color);
+    border-color: var(--element-color);
+    background-color: white;
+    color: var(--element-color);
+}
+
+#services .container .heading .button-box .left-btn:hover i {
+    color: var(--element-color);
+}
+
+#services .container .heading .button-box .right-btn {
+    border: 2px solid var(--text-color);
+    border-radius: 50%;
+    padding: 1px 3px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#services .container .heading .button-box .right-btn i {
+    color: var(--text-color);
+    font-size: 35px;
+    transition: all 0.5s;
+}
+
+#services .container .heading .button-box .right-btn:hover {
+    border-color: var(--element-color);
+    background-color: white;
+    color: var(--element-color);
+}
+
+#services .container .heading .button-box .right-btn:hover i {
+    color: var(--element-color);
+}
+
+#services .container .heading span {
+    font-size: 5rem;
+    font-variant: small-caps;
+    font-weight: 600;
+    color: var(--text-color);
+    position: relative;
+}
+
+#services .container .services-box {
+    width: 100%;
+    margin-top: 60px;
+}
+
+#services .container .services-box .row{
+
+    position: relative;
+    overflow: hidden;
+}
+
+#services .container .services-box .services-content-box-same {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#services .container .services-box .services-content-box-same .same-col {
+    width: 31%;
+    /* background-color: var(--element-color); */
+    padding: 55px 40px;
+    /* color: whitesmoke; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+
+#services .container .services-box .services-content-box-same .col-1{
+    background: #f3f5ff;
+    border-bottom: 4px solid #b0bdff;
+}
+
+#services .container .services-box .services-content-box-same .col-2{
+    background: #fff3e6;
+    border-bottom: 4px solid #ffc093;
+}
+
+#services .container .services-box .services-content-box-same .col-3{
+    background: #fbeefd;
+    border-bottom: 4px solid #f6bcff;
+}
+
+#services .container .services-box .services-content-box-same .col-4{
+    background: #effdff;
+    border-bottom: 4px solid #9ff3ff;
+}
+
+#services .container .services-box .services-content-box-same .col-5{
+    background: #fbfff1;
+    border-bottom: 4px solid #ffdaa2;
+}
+
+#services .container .services-box .services-content-box-same .col-6{
+    background: #f3f5ff;
+    border-bottom: 4px solid #b0bdff;
+}
+
+#services .container .services-box .services-content-box-same .same-col img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+
+#services .container .services-box .services-content-box-same .same-col h2 {
+    font-size: 20px;
+}
+
+#services .container .services-box .services-content-box-same .same-col ul {
+    display: flex;
+    gap: 5px;
+}
+
+#services .container .services-box .services-content-box-same .same-col ul li {
+    border-right: 1px dotted gray;
+    padding-right: 5px;
+}
+
+#services .container .services-box .services-content-box-same .same-col ul li a {
+    color: var(--para-color);
+}
+
+#services .container .services-box .services-content-box-same .same-col .hovercontent {
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    gap: 13px;
+    align-items: flex-start;
+}
+
+#services .container .services-box .services-content-box-same .same-col .hovercontent p {
+    font-size: 14px;
+}
+
+/* #services .container .services-box .services-content-box-same .same-col .readme-btn{
+    color: var(--bg-color);
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: whitesmoke;
+    font-size: 14px;
+    transition: all 0.3s;
+} */
+
+/* #services .container .services-box .services-content-box-same .same-col .readme-btn:hover{
+    background-color: var(--bg-color);
+    color: white;
+    border-color: white;
+} */
+
+#services .container .services-box .services-content-box-2 {
+    width: 100%;
+    /* display: flex; */
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#services .container .services-box .services-content-box-2 .same-col {
+    width: 48%;
+    background-color: var(--element-color);
+    padding: 55px 40px;
+    color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+#services .container .services-box .services-content-box-2 .same-col img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+#services .container .services-box .services-content-box-2 .same-col h2 {
+    font-size: 20px;
+}
+
+#services .container .services-box .services-content-box-2 .same-col ul {
+    display: flex;
+    gap: 5px;
+}
+
+#services .container .services-box .services-content-box-2 .same-col ul li {
+    border-right: 1px dotted gray;
+    padding-right: 5px;
+}
+
+#services .container .services-box .services-content-box-2 .same-col ul li a {
+    color: whitesmoke;
+}
+
+
+/* .left-visible{
+    display: flex;
+}
+
+.left-hidden{
+    display: none;
+}
+
+.right-visible{
+    display: flex;
+}
+
+.right-hidden{
+    display: none;
+} */

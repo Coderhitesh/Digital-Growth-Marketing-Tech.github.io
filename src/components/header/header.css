@@ -2,7 +2,8 @@
 
 header{
     width: 100%;
-    background-color: #C9EDFF;
+    /* background-color: #C9EDFF; */
+    background-color: var(--main-bg-color);
     box-shadow: 0px 0px 28px -11px black;
 }
 
@@ -51,7 +52,8 @@ header .dgmt-container .dgmt-right .dgmt-navigation ul .dgmt-inventure-drop-down
     top: 48px;
     left: 0px;
     z-index: 999;
-    background-color: whitesmoke;
+    /* background-color: var(--drop-down-bg-color); */
+    background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     /* display: flex; */
@@ -95,7 +97,7 @@ header .dgmt-container .dgmt-right .dgmt-navigation ul .dgmt-services-drop-down 
     top: 48px;
     left: 0px;
     z-index: 999;
-    background-color: whitesmoke;
+    background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
    
